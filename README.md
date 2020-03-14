@@ -13,10 +13,10 @@ Post data was collected using the Pushshift api. 20,415 posts with a minimum sco
 Posts with missing, removed, or deleted selftext were dropped from the dataset. The resulting dataset was unbalanced in favor of r/fifthworldproblems, so posts from r.fifthworldproblems were deleted to balance the classes. It was found that there were no duplicate posts. The selftext and titles were combined into an alltext column for modeling purposes. The alltext column was tokenized and lemmatized to aid in nlp and for visualization. The following visualizations were created.
   
 # Histogram
-![hist](https://raw.git.generalassemb.ly/ZacharyJamesHill/dsi_assignments/master/project_3/visualizations/word_hist.png?token=AABiDjPuQkljUvd06TnteqDphmLyFrW6ks5eOvwOwA%3D%3D)
+![hist](./visualizations/word_hist.png?token=AABiDjPuQkljUvd06TnteqDphmLyFrW6ks5eOvwOwA%3D%3D)
   
 # TSNE Visualization
-![tsne](https://raw.git.generalassemb.ly/ZacharyJamesHill/dsi_assignments/master/project_3/visualizations/tsne_scatter.png?token=AABiDuAYd2jvLKfYNJ5TeKYZpFhjKTX7ks5ePPABwA%3D%3D)
+![tsne](./visualizations/tsne_scatter.png?token=AABiDuAYd2jvLKfYNJ5TeKYZpFhjKTX7ks5ePPABwA%3D%3D)
 
 Finally the alltext column was detokenized and the data was output as results.csv
 ## Modeling
