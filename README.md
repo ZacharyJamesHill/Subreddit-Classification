@@ -37,7 +37,7 @@ The following models were used.
 8. Random Forrest
 9. Support Vector Classifier
 
-Logistic Regression provided the best accuracy with a 99% on train and a 89% on train.
+Logistic Regression provided the best accuracy with a 99% on train and a 89% on test.
   
 ## Conclusions
 Determining between r/fifthworldproblems and r/firstworldproblems with reasonable accuracy is possible. Possible applications of this model include, automatic complaint filtering, generalized detection of absurd content, and novelty text classification. 
